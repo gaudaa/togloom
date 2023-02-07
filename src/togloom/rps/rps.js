@@ -3,7 +3,7 @@ import React, { useState } from "react";
 
 
 const RockPaperScissors = () => {
-    
+
     const choices = ["rock", "paper", "scissors"];
     const [myChoice, setMyChoice] = useState('');
     const [comChoice, setComChoice] = useState('');
